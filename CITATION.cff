@@ -6,7 +6,7 @@ date-released: 2026-10-02
 authors:
   - family-names: "CompilerLens Research Team"
 license: "Apache-2.0"
-repository-code: "https://github.com/oggy/CompilerLens"
+repository-code: "https://github.com/CoderOggy78/CompilerLens"
 keywords:
   - "machine learning for compilers"
   - "compiler autotuning"

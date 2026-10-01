@@ -48,7 +48,7 @@ def create_colab_notebook(output_path: Path) -> None:
         """# CompilerLens: Learning to Rank Compiler Configurations with Graph Neural Networks
 ### A Reproducible Research Project on Learned Cost Models for Accelerated Compilers
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oggy/CompilerLens/blob/main/notebooks/compilerlens_colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CoderOggy78/CompilerLens/blob/main/notebooks/compilerlens_colab.ipynb)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ---
@@ -115,7 +115,7 @@ If running in a fresh Google Colab session, we clone the repository and install 
         """# Clone repo if in Colab environment
 if not os.path.exists("src/compilerlens"):
     print("Cloning CompilerLens repository...")
-    !git clone https://github.com/oggy/CompilerLens.git
+    !git clone https://github.com/CoderOggy78/CompilerLens.git
     %cd CompilerLens
 
 # Install package dependencies

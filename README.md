@@ -1,7 +1,7 @@
 # CompilerLens: Learning to Rank Compiler Configurations with Graph Neural Networks
 
-[![CI](https://github.com/oggy/CompilerLens/actions/workflows/ci.yml/badge.svg)](https://github.com/oggy/CompilerLens/actions/workflows/ci.yml)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oggy/CompilerLens/blob/main/notebooks/compilerlens_colab.ipynb)
+[![CI](https://github.com/CoderOggy78/CompilerLens/actions/workflows/ci.yml/badge.svg)](https://github.com/CoderOggy78/CompilerLens/actions/workflows/ci.yml)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CoderOggy78/CompilerLens/blob/main/notebooks/compilerlens_colab.ipynb)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python: 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
 [![PyTorch: 2.0+](https://img.shields.io/badge/PyTorch-2.0%2B-orange.svg)](https://pytorch.org)
@@ -103,7 +103,7 @@ Evaluated on held-out computation graphs from the official TpuGraphs benchmark w
 
 ### 1. Installation
 ```bash
-git clone https://github.com/oggy/CompilerLens.git
+git clone https://github.com/CoderOggy78/CompilerLens.git
 cd CompilerLens
 python -m pip install -r requirements.txt
 python -m pip install -e . --no-deps
@@ -200,7 +200,7 @@ If you build upon CompilerLens in your research, please cite:
   title={CompilerLens: Learning to Rank Compiler Configurations with Graph Neural Networks},
   author={CompilerLens Research Team},
   year={2026},
-  url={https://github.com/oggy/CompilerLens}
+  url={https://github.com/CoderOggy78/CompilerLens}
 }
 ```
 

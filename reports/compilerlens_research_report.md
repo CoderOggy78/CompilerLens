@@ -3,7 +3,7 @@
 
 **Author:** CompilerLens Research Team  
 **Date:** October 2026  
-**Artifact Repository:** [https://github.com/oggy/CompilerLens](https://github.com/oggy/CompilerLens)  
+**Artifact Repository:** [https://github.com/CoderOggy78/CompilerLens](https://github.com/CoderOggy78/CompilerLens)  
 **License:** Apache-2.0  
 
 ---
@@ -180,7 +180,7 @@ Detailed error inspection revealed three primary modes of ranking failure:
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/oggy/CompilerLens.git
+git clone https://github.com/CoderOggy78/CompilerLens.git
 cd CompilerLens
 
 # 2. Install dependencies

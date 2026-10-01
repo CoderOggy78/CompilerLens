@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use CompilerLens in your research or benchmarks, please cite it as below."
+title: "CompilerLens: Learning to Rank Compiler Configurations with Graph Neural Networks"
+version: 0.1.0
+date-released: 2026-10-02
+authors:
+  - family-names: "CompilerLens Research Team"
+license: "Apache-2.0"
+repository-code: "https://github.com/oggy/CompilerLens"
+keywords:
+  - "machine learning for compilers"
+  - "compiler autotuning"
+  - "graph neural networks"
+  - "learning to rank"
+  - "XLA"
+  - "tpu-graphs"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "CompilerLens Research Team"
+  title: "CompilerLens: Learning to Rank Compiler Configurations with Graph Neural Networks"
+  year: 2026

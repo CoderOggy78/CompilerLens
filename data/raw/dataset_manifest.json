@@ -1,0 +1,27 @@
+{
+  "dataset_name": "TpuGraphs (Tile Collection)",
+  "source": "https://github.com/google-research-datasets/tpu_graphs",
+  "retrieval_timestamp_utc": "2026-10-01T20:53:38.104199+00:00",
+  "archives": {
+    "npz_tile_xla_train.tar": {
+      "status": "verified",
+      "bytes": 158965760,
+      "md5": "528f9bcfd86581662f238a9cfb8613e7"
+    },
+    "npz_tile_xla_valid.tar": {
+      "status": "verified",
+      "bytes": 15923200,
+      "md5": "eae09512dd0da8d6a6dddff4b922b278"
+    },
+    "npz_tile_xla_test.tar": {
+      "status": "verified",
+      "bytes": 15912960,
+      "md5": "3ad9d6c51fbd51937e55dffbe12d9856"
+    }
+  },
+  "file_counts": {
+    "train": 5709,
+    "valid": 676,
+    "test": 844
+  }
+}

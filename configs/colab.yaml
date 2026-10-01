@@ -1,0 +1,49 @@
+# CompilerLens Configuration: Colab Profile
+# Tuned for standard Google Colab GPU / High-RAM CPU limits (12GB RAM, 15GB VRAM).
+
+name: "colab"
+seed: 42
+device: "auto"
+
+data:
+  raw_dir: "data/raw"
+  collection: "tile"
+  backend: "xla"
+  max_train_graphs: 200
+  max_val_graphs: 50
+  max_test_graphs: 50
+  max_configs_per_graph: 64
+  val_ratio: 0.2
+  fit_preprocessor_on_train_only: true
+  num_workers: 2
+
+model:
+  type: "gnn_conditioned"
+  node_feat_dim: 140
+  config_feat_dim: 24
+  num_opcodes: 128
+  opcode_embed_dim: 32
+  hidden_dim: 128
+  num_layers: 3
+  dropout: 0.1
+  conditioning: "film"
+  bidirectional: true
+
+training:
+  batch_size: 4
+  num_epochs: 15
+  learning_rate: 0.001
+  weight_decay: 1.0e-4
+  grad_clip_norm: 1.0
+  lambda_rank: 1.0
+  huber_delta: 1.0
+  tie_threshold: 1.0e-4
+  max_pairs_per_graph: 256
+  early_stopping_patience: 5
+  checkpoint_dir: "checkpoints/colab"
+  log_interval: 5
+
+evaluation:
+  top_k_list: [1, 5, 10]
+  bootstrap_rounds: 1000
+  export_predictions: true
